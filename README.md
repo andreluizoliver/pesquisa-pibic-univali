@@ -21,3 +21,12 @@ Durante o desenvolvimento do protótipo, testes de unidade foram realizados. Os 
 ### Documentação e Divulgação de Resultados
 Os relatórios parciais, alguns resumos dos estudos realizados e o presente relatório foram redigidos nesta etapa.
 
+### CONSIDERAÇÕES FINAIS
+O uso do modelo centrado no usuário em programas de governo participativo é interessante devido a possibilidade de o usuário selecionar quais informações deseja liberar aos provedores de serviços, respeitando assim a privacidade dos usuários. Na solução proposta, por meio do modelo centrado no usuário, os cidadãos terão a possibilidade ainda de interagir com as aplicações e-Gov a partir de serviços de autenticação comumente utilizados, como por exemplo, o framework OpenID Connect ou o Facebook Connect.
+Na solução proposta, o padrão SAML será usado para representar informações de segurança (credenciais de autenticação) na forma de asserções e na troca dinâmica de informações de segurança entre parceiros da federação governamental. Para que os processos de colaboração G2B, G2G e G2C se concretizem, o sistema proposto deve ainda contemplar um modelo de gestão de confiança (Trust Framework) que definirá como as relações de confiança entre os domínios administrativos deverão ser estabelecidas, como os níveis de garantia (Level of Assurance - LoA) podem ser definidos e avaliados e quais regras comuns  são necessárias para operação da federação de serviços governamentais.
+### SUGESTÕES PARA DESDOBRAMENTO DA PESQUISA
+Os experimentos de integração do aplicativo mobile com servidor de autenticação não foi concluída, por ocorrência de erros inesperados que necessitam de uma analise detalhada. Por este motivo foi implementado a aplicação web para validar a autenticação ao Server MITREid.
+Para a aplicação mobile dar continuidade e implementação de melhorias, sugere-se integrar a câmera e a localização do dispositivo ao aplicativo desenvolvido. Isso facilitará o uso e gerará acertividade para as informações assim cadastradas.
+Pesquisar sobre integração do MITREid à plataforma Firebase. Visto que, o Facebook, Google, Github e Twiter possuiem integração com a plataforma, verificar o possibilidade adicionar o servidor de gestão de identidide MITREid à Firebase Auth.
+
+
